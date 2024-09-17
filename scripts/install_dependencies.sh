@@ -1,3 +1,3 @@
 #!/bin/bash
-cd my-node-app
+cd /home/my-node-app
 npm install
