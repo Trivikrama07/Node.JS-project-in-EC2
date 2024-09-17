@@ -1,5 +1,3 @@
 #!/bin/bash
-# Kill any existing node process
-pkill node
-# Start the Node.js application
-nohup npm start > /dev/null 2>&1 &
+cd /home/nodejs-app
+npm start > app.out.log 2> app.err.log < /dev/null &
