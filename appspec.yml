@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /my-node-app
+  - source: 
+    destination: my-node-app
 permissions:
-  - object: /my-node-app
+  - object: my-node-app
     owner: root
     group: root
     mode: 777
