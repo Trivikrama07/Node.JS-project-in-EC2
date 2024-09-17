@@ -13,4 +13,5 @@ artifacts:
     - '**/*'
     - 'scripts/*'
     - 'appspec.yml'
+    - cat appspec.yml
   base-directory: '.'
