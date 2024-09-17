@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/my-nodejs-app
+cd /home/ec2-user/my-node-app
 npm start > app.out.log 2> app.err.log < /dev/null &
