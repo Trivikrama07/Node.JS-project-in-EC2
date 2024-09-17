@@ -1,3 +1,7 @@
 #!/bin/bash
 cd /home/ec2-user/my-node-app
-npm start > app.out.log 2> app.err.log < /dev/null &
+# Kill any existing server process
+pkill node
+# Start the Node.js application
+node app.js > app.log 2>&1 &
+
