@@ -9,8 +9,7 @@ pkill node
 
 # Start the Node.js application in the background and redirect logs
 echo "Starting the Node.js application..."
-# nohup node app.js > app.log 2>&1 &
-node app.js
+nohup node app.js 
 
 # Check if the application started successfully
 if [[ $? -eq 0 ]]; then
